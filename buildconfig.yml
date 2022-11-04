@@ -1,0 +1,10 @@
+appVersion: v1
+kind : Buildconfig
+Metadata :
+  app : my-flask-appV
+  annotation :
+     env : DEV
+
+spec:
+  image : "git location of my dockerfile"
+  forcepull : never
